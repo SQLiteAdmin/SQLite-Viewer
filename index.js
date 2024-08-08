@@ -13,8 +13,8 @@ const fs = require("fs");
 
 
 http.createServer(function(req, res){
-  res.write("Hello Nodejs!");
-  res.write(req.url);
+  res.writeHead(200,{'Content-Type':'text/html'});
+  res.write("<h2>Welcome to SQLite Viewer!</h2>");
   res.end();
 }).listen(8080);
 console.log("Server running on PORT 8080");
