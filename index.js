@@ -7,7 +7,14 @@
  * */
 
 const http = require("http");
-const port = process.env.PORT;
+//const port = process.env.PORT || 8080;
 const path = require("path");
-const { env } = require("process");
+const fs = require("fs");
 
+
+http.createServer(function(req, res){
+  res.write("Hello Nodejs!");
+  res.write(req.url);
+  res.end();
+}).listen(8080);
+console.log("Server running on PORT 8080");
