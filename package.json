@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^30.0.0",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.10"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
