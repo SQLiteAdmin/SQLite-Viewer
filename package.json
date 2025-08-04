@@ -19,7 +19,7 @@
   "author": "Sushil Kumar",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^30.0.4",
+    "jest": "^30.0.5",
     "tailwindcss": "^4.1.11"
   },
   "dependencies": {
